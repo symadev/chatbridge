@@ -5,8 +5,6 @@ const Home = () => {
     return (
         <div>
              <section id="/"><LandingPage /></section>
-             <section id="/chat"></section>
-            
         </div>
     );
 };
