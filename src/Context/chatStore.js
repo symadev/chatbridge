@@ -1,11 +1,21 @@
 // zustand context 
 
-import { create } from "zustand"; 
-
+import { create } from "zustand";
 
 export const useChatStore = create((set) => ({
   messages: [],
-  addMessage: (msg) => set((state) => ({ messages: [...state.messages, msg] })),
+  
+  //add new mgs
+  addMessage: (msg) =>
+    set((state) => ({ messages: [...state.messages, msg] })),
+  
+  // save the  history set (while loading the chat history from backend)
+  setMessages: (messages) =>
+    set({ messages }),
+  
+  // clear all the mgs
+  clearMessages: () =>
+    set({ messages: [] }),
 }));
 
 
