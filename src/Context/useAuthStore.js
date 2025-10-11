@@ -3,7 +3,7 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import axios from "axios";
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://chatbridge-backend-fvgh.onrender.com";
 
 export const useAuthStore = create(
   persist(

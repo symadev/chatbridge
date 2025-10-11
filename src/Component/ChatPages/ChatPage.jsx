@@ -28,7 +28,7 @@ const ChatPage = () => {
         console.log("📥 Loading chat history...");
 
         const response = await axios.get(
-          "http://localhost:8000/chat/history",
+          "https://chatbridge-backend-fvgh.onrender.com/chat/history",
           {
             headers: {
               Authorization: `Bearer ${authToken}`,

@@ -25,7 +25,7 @@ const ChatInput = () => {
       if (!authToken) throw new Error("User not authenticated");
 
       const response = await axios.post(
-        "http://localhost:8000/chat/send",
+        "https://chatbridge-backend-fvgh.onrender.com/chat/send",
         { message: userMessage },
         {
           headers: {
