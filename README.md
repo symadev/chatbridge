@@ -1,16 +1,85 @@
-# React + Vite
+<div align="center">
+  <img src="./public/assets/chatbridge-logo.png" alt="ChatBridge Logo" width="120" height="120" />
+  <img src="./public/assets/chatbridge-logo2.png" alt="ChatBridge Logo" width="120" height="120" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <h1>ChatBridge Frontend</h1>
 
-Currently, two official plugins are available:
+  <h3>AI-Powered Document Q&A Chat Interface</h3>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <p>
+    <strong>
+      A modern, responsive React frontend for <b>ChatBridge</b> — an intelligent chatbot
+      that reads PDFs and answers questions using <b>RAG (Retrieval-Augmented Generation)</b>.
+    </strong>
+  </p>
 
-## React Compiler
+  <p>
+    <a href="https://chatbridge-lemon.vercel.app/">
+      <img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel" alt="Live Demo" />
+    </a>
+    <a href="https://github.com/symadev/chatbridge-backend">
+      <img src="https://img.shields.io/badge/Backend-Repo-blue?style=for-the-badge&logo=github" alt="Backend Repo" />
+    </a>
+    <a href="LICENSE">
+      <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" />
+    </a>
+  </p>
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔐 Authentication
+- ✅ **JWT-based Authentication** – Secure token-based authentication system  
+- ✅ **Persistent Sessions** – Zustand persist middleware for session management  
+- ✅ **Protected Routes** – Automatic redirection for unauthorized users  
+- ✅ **Form Validation** – React Hook Form for robust input validation  
+
+### 💬 Chat Features
+- ✅ **Message History** – Persistent chat history loaded from the backend  
+- ✅ **Real-time Updates** – Instant message display with optimistic UI  
+- ✅ **Auto-scroll** – Automatically scrolls to the latest messages  
+- ✅ **Message Timestamps** – Track the conversation timeline  
+- ✅ **Source Citations** – View page references from uploaded PDF documents  
+
+---
+
+## 🎬 Demo
+
+### Live Application  
+👉 **[Try ChatBridge](https://chatbridge-lemon.vercel.app/)**
+
+---
+
+## 🚀 Installation & Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/symadev/chatbridge-frontend.git
+cd chatbridge-frontend
+
+# 2. Install dependencies
+npm install
+# or
+yarn install
+
+# 3. Start the development server
+npm run dev
+# or
+yarn dev
+
+# 4. Open your browser and visit
+http://localhost:5173
+
+
+## 🧠 Tech Stack
+
+- ⚛️ **React.js** — Frontend library for building dynamic user interfaces  
+- 🎨 **Tailwind CSS** — Utility-first CSS framework for modern, responsive styling  
+- 🧩 **Zustand** — Lightweight state management for React  
+- 📝 **React Hook Form** — Simplified form handling and validation  
+- 🌐 **Axios** — Promise-based HTTP client for API communication  
+- ⚡ **Vite** — Next-generation frontend build tool for fast development  
+
+
