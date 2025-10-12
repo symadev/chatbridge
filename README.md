@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="./public/assets/chatbridge-logo.png" alt="ChatBridge Logo" width="120" height="120" />
-  <img src="./public/assets/chatbridge-logo2.png" alt="ChatBridge Logo" width="120" height="120" />
+  <img src="./public/assets/chatbridge-logo.png" alt="ChatBridge Logo" width="140" height="140" />
+  <img src="./public/assets/chatbridge-logo2.png" alt="ChatBridge Logo" width="140" height="140" />
 
-  <h1>ChatBridge Frontend</h1>
+  <h1 style="font-size: 42px;">🚀 ChatBridge Frontend</h1>
 
-  <h3>AI-Powered Document Q&A Chat Interface</h3>
+  <h3 style="font-size: 22px;">AI-Powered Document Q&A Chat Interface</h3>
 
   <p>
     <strong>
@@ -28,48 +28,57 @@
 
 ---
 
-## ✨ Features
+## ✨ **Features**
 
-### 🔐 Authentication
-- ✅ **JWT-based Authentication** – Secure token-based authentication system  
-- ✅ **Persistent Sessions** – Zustand persist middleware for session management  
-- ✅ **Protected Routes** – Automatic redirection for unauthorized users  
-- ✅ **Form Validation** – React Hook Form for robust input validation  
-
-### 💬 Chat Features
-- ✅ **Message History** – Persistent chat history loaded from the backend  
-- ✅ **Real-time Updates** – Instant message display with optimistic UI  
-- ✅ **Auto-scroll** – Automatically scrolls to the latest messages  
-- ✅ **Message Timestamps** – Track the conversation timeline  
-- ✅ **Source Citations** – View page references from uploaded PDF documents  
+### 🎨 **User Interface**
+- ✅ **Modern & Responsive Design** — Built with Tailwind CSS for a beautiful, mobile-friendly UI  
+- ✅ **Real-time Chat Interface** — Smooth messaging experience with instant feedback  
+- ✅ **Loading States** — Visual indicators for better UX during API calls  
+- ✅ **Error Handling** — User-friendly error messages and fallback states  
 
 ---
 
-## 🎬 Demo
+### 🔐 **Authentication**
+- ✅ **JWT-based Authentication** — Secure token-based auth system  
+- ✅ **Persistent Sessions** — Zustand persist middleware for user session management  
+- ✅ **Protected Routes** — Automatic redirection for unauthorized users  
+- ✅ **Form Validation** — Robust validation using React Hook Form  
 
-### Live Application  
+---
+
+### 💬 **Chat Features**
+- ✅ **Message History** — Persistent chat history fetched from the backend  
+- ✅ **Real-time Updates** — Instant message rendering with optimistic UI  
+- ✅ **Auto-scroll** — Automatically scrolls to the latest messages  
+- ✅ **Message Timestamps** — Track the conversation timeline  
+- ✅ **Source Citations** — Shows referenced PDF pages for transparency  
+
+---
+
+## 🎬 **Live Demo**
+
 👉 **[Try ChatBridge](https://chatbridge-lemon.vercel.app/)**
 
 ---
 
-## 🚀 Installation & Setup
+## ⚙️ **Installation & Setup**
 
 ```bash
-# 1. Clone the repository
+# 1️⃣ Clone the repository
 git clone https://github.com/symadev/chatbridge-frontend.git
 cd chatbridge-frontend
 
-# 2. Install dependencies
+# 2️⃣ Install dependencies
 npm install
 # or
 yarn install
 
-# 3. Start the development server
+# 3️⃣ Start the development server
 npm run dev
 # or
 yarn dev
 
-# 4. Open your browser and visit
+# 4️⃣ Open your browser
 http://localhost:5173
 
 
