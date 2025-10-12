@@ -1,6 +1,9 @@
 <div align="center">
-  <img src="./public/assets/chatbridge-logo.png" alt="ChatBridge Logo" width="140" height="140" />
-  <img src="./public/assets/chatbridge-logo2.png" alt="ChatBridge Logo" width="140" height="140" />
+
+  <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+    <img src="./public/assets/chatbridge-logo.png" alt="ChatBridge Logo 1" width="100%"  />
+    <img src="./public/assets/chatbridge-logo2.png" alt="ChatBridge Logo 2" width="100%"  />
+  </div>
 
   <h1 style="font-size: 42px;">🚀 ChatBridge Frontend</h1>
 
@@ -24,17 +27,10 @@
       <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" />
     </a>
   </p>
+
 </div>
 
----
-
-## ✨ **Features**
-
-### 🎨 **User Interface**
-- ✅ **Modern & Responsive Design** — Built with Tailwind CSS for a beautiful, mobile-friendly UI  
-- ✅ **Real-time Chat Interface** — Smooth messaging experience with instant feedback  
-- ✅ **Loading States** — Visual indicators for better UX during API calls  
-- ✅ **Error Handling** — User-friendly error messages and fallback states  
+ 
 
 ---
 
@@ -66,6 +62,8 @@
 ```bash
 # 1️⃣ Clone the repository
 git clone https://github.com/symadev/chatbridge-frontend.git
+
+
 cd chatbridge-frontend
 
 # 2️⃣ Install dependencies
