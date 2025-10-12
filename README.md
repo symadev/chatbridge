@@ -31,7 +31,6 @@
 </div>
 
  
-
 ---
 
 ### 🔐 **Authentication**
@@ -57,27 +56,43 @@
 
 ---
 
-## ⚙️ **Installation & Setup**
+###  Installation
 
-```bash
-# 1️⃣ Clone the repository
-git clone https://github.com/symadev/chatbridge-frontend.git
+1. **Clone the repository**
+```
+git clonehttps://github.com/symadev/chatbridge.git
+```
+
+2. **Navigate to project directory**
+```
+cd chatbridge
+```
 
 
-cd chatbridge-frontend
-
-# 2️⃣ Install dependencies
+3. **Install dependencies**
+```
 npm install
-# or
+```
+```
 yarn install
+```
 
-# 3️⃣ Start the development server
+
+4. **Start development server**
+``` 
 npm run dev
-# or
+```
+``` 
 yarn dev
+```
 
-# 4️⃣ Open your browser
-http://localhost:5173
+
+5. **Open your browser**
+ ```
+ Navigate to http://localhost:5173
+ ```
+
+---
 
 
 ## 🧠 Tech Stack
