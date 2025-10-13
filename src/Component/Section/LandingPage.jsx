@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuthStore } from "../../Context/useAuthStore";
 import Login from "../Section/Login";
-import Signup from "../Section/Signup"; // make sure path is correct
+import Signup from "../Section/Signup";
 
 const LandingPage = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -10,11 +10,11 @@ const LandingPage = () => {
     const navigate = useNavigate();
     const { isAuthenticated } = useAuthStore();
 
-    // ✅ modal states
+    //  modal states
     const [isLoginOpen, setLoginOpen] = useState(false);
     const [isSignupOpen, setSignupOpen] = useState(false);
 
-    // ✅ modal control functions
+    //  modal control functions
     const openLoginModal = () => setLoginOpen(true);
     const closeLoginModal = () => setLoginOpen(false);
 
@@ -46,7 +46,7 @@ const LandingPage = () => {
 
     return (
         <div className="relative overflow-hidden bg-gradient-to-br from-[#010629] via-[#0a0e3d] to-[#010629] min-h-screen flex items-center">
-            {/* 🌈 Animated Background */}
+            {/*  Animated Background */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
                 <div
                     className="absolute w-96 h-96 bg-gradient-to-r from-pink-500/20 to-purple-500/20 rounded-full blur-3xl"
@@ -76,7 +76,7 @@ const LandingPage = () => {
                 ))}
             </div>
 
-            {/* 🌐 Grid Pattern */}
+            {/*  Grid Pattern */}
             <div
                 className="absolute inset-0 opacity-10"
                 style={{
@@ -85,7 +85,7 @@ const LandingPage = () => {
                 }}
             />
 
-            {/* 💬 Content Section */}
+            {/*  Content Section */}
             <div className="relative z-10 container mx-auto px-6 py-12">
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16">
                     {/* Text Content */}
@@ -282,7 +282,7 @@ const LandingPage = () => {
                 </div>
             </div>
 
-            {/* 🟢 Render modals here */}
+            {/* Render modals here */}
             <Login
                 isOpen={isLoginOpen}
                 onRequestClose={closeLoginModal}

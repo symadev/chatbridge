@@ -41,27 +41,7 @@ const Navbar = () => {
             </button>
           )}
 
-          {/* Hamburger menu */}
-          <button
-            onClick={toggleMenu}
-            className="lg:hidden relative z-50 w-10 h-10 flex flex-col items-center justify-center space-y-1.5 group"
-          >
-            <span
-              className={`block w-6 h-0.5 bg-yellow-400 transition-all duration-300 ${
-                isMenuOpen ? "rotate-45 translate-y-2" : ""
-              }`}
-            ></span>
-            <span
-              className={`block w-6 h-0.5 bg-yellow-400 transition-all duration-300 ${
-                isMenuOpen ? "opacity-0" : ""
-              }`}
-            ></span>
-            <span
-              className={`block w-6 h-0.5 bg-yellow-400 transition-all duration-300 ${
-                isMenuOpen ? "-rotate-45 -translate-y-2" : ""
-              }`}
-            ></span>
-          </button>
+     
         </div>
       </div>
 
