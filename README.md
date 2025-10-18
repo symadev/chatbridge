@@ -16,18 +16,7 @@
     </strong>
   </p>
 
-  <p>
-    <a href="https://chatbridge-lemon.vercel.app/">
-      <img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel" alt="Live Demo" />
-    </a>
-    <a href="https://github.com/symadev/chatbridge-backend">
-      <img src="https://img.shields.io/badge/Backend-Repo-blue?style=for-the-badge&logo=github" alt="Backend Repo" />
-    </a>
-    <a href="LICENSE">
-      <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" />
-    </a>
-  </p>
-
+ 
 </div>
 
  
