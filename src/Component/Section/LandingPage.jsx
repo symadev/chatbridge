@@ -22,7 +22,7 @@ const LandingPage = () => {
     const closeSignupModal = () => setSignupOpen(false);
 
     const handleClick = (e) => {
-        e.preventDefault();
+        e.preventDefault();   
         if (isAuthenticated) {
             navigate("/chat");
         } else {
