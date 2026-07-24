@@ -21,7 +21,7 @@ export const useAuthStore = create(
 
         try {
           const response = await axios.post(`${API_URL}/auth/signup`, {
-            username,  // ⚠️ Backend expects 'username', not 'name'
+            username,  // Backend expects 'username', not 'name'
             email,
             password,
           });
