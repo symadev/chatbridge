@@ -17,10 +17,10 @@ const MainLayout = () => {
     <>
       {!noHeaderFooter && <Navbar />}
 
-      {/* ✅ Pass openLoginModal down to children using Outlet context */}
+      {/* Pass openLoginModal down to children using Outlet context */}
       <Outlet context={{ openLoginModal }} />
 
-      {/* ✅ Global Login Modal */}
+      {/*  Global Login Modal */}
       <Login
         isOpen={isLoginOpen}
         onRequestClose={closeLoginModal}
